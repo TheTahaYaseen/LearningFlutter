@@ -43,6 +43,7 @@ void main() {
 
   // lists
 
+  // List<listDatatype> listName = [listValues];
   List<String> skills = ["Python", "JS", "PHP", "C++"];
 
   skills.add("C#");

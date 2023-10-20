@@ -13,4 +13,27 @@ void main() {
 
   dynamic experienceOfProgrammingInYears = 3;
   experienceOfProgrammingInYears = "3"; // Allows Changing Types
+
+  // returnType functionName(){
+  // functionWork/functionality
+  // }
+
+  String greet() {
+    return "hello!";
+  }
+
+  String greeting = greet();
+
+  int getAge() {
+    return age;
+  }
+
+  int myAge = getAge();
+
+  // arrow function
+
+  // returnType functionName() => returnValue;
+  int getProgrammingExperience() => experienceOfProgrammingInYears;
+
+  String myProgrammingExperience = getProgrammingExperience();
 }

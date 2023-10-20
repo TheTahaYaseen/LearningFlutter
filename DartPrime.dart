@@ -52,10 +52,15 @@ void main() {
   // skills.add(0); // Doesn't Allow, Only Allowing Strings
 
   // new instance of programmer
-  Programmer me = Programmer();
+  Programmer me = Programmer("thetahayaseen", "master");
   String myExpertiseLevel = me.expertiseLevel;
 
   me.tellExpertise();
+
+  Programmer someoneElse = Programmer("someguy", "beginner");
+  String someguyExpertiseLevel = someoneElse.expertiseLevel;
+
+  someoneElse.tellExpertise();
 }
 
 // classes

@@ -69,10 +69,8 @@ class Programmer {
   String username;
   String expertiseLevel;
 
-  Programmer(String username, String expertiseLevel) {
-    this.username = username;
-    this.expertiseLevel = expertiseLevel;
-  }
+  // constructor
+  Programmer(String this.username, String this.expertiseLevel);
 
   void tellExpertise() {
     print("thetahayaseen is a " + expertiseLevel);

@@ -3,6 +3,8 @@ void main() {
 
   // statically typed language
 
+  // variables
+
   // datatype variableName = variableValue;
 
   String name = "The Taha Yaseen";
@@ -13,6 +15,8 @@ void main() {
 
   dynamic experienceOfProgrammingInYears = 3;
   experienceOfProgrammingInYears = "3"; // Allows Changing Types
+
+  // functions
 
   // returnType functionName(){
   // functionWork/functionality
@@ -36,4 +40,13 @@ void main() {
   int getProgrammingExperience() => experienceOfProgrammingInYears;
 
   String myProgrammingExperience = getProgrammingExperience();
+
+  // lists
+
+  List<String> skills = ["Python", "JS", "PHP", "C++"];
+
+  skills.add("C#");
+  skills.remove("C++");
+
+  // skills.add(0); // Doesn't Allow, Only Allowing Strings
 }

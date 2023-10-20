@@ -61,8 +61,13 @@ void main() {
 // classes
 
 class Programmer {
-  String username = "thetahayaseen";
-  String expertiseLevel = "master";
+  String username;
+  String expertiseLevel;
+
+  Programmer(String username, String expertiseLevel) {
+    this.username = username;
+    this.expertiseLevel = expertiseLevel;
+  }
 
   void tellExpertise() {
     print("thetahayaseen is a " + expertiseLevel);

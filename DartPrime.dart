@@ -37,7 +37,7 @@ void main() {
   // arrow function
 
   // returnType functionName() => returnValue;
-  int getProgrammingExperience() => experienceOfProgrammingInYears;
+  String getProgrammingExperience() => experienceOfProgrammingInYears;
 
   String myProgrammingExperience = getProgrammingExperience();
 

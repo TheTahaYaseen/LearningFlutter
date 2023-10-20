@@ -69,14 +69,11 @@ void main() {
 
   if (age < 18) {
     print("Bro is a prodigy!");
-  }
-  else if(age < 54){
+  } else if (age < 54) {
     print("Bro is in the optimal age!");
+  } else {
+    print("Bro is still studying in this age!");
   }
-  else{
-    print("Bro is still studying in this age!")
-  }
-
 }
 
 // classes

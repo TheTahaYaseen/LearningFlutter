@@ -50,4 +50,21 @@ void main() {
   skills.remove("C++");
 
   // skills.add(0); // Doesn't Allow, Only Allowing Strings
+
+  // new instance of programmer
+  Programmer me = Programmer();
+  String myExpertiseLevel = me.expertiseLevel;
+
+  me.tellExpertise();
+}
+
+// classes
+
+class Programmer {
+  String username = "thetahayaseen";
+  String expertiseLevel = "master";
+
+  void tellExpertise() {
+    print("thetahayaseen is a " + expertiseLevel);
+  }
 }

@@ -62,6 +62,21 @@ void main() {
   String someguyExpertiseLevel = someoneElse.expertiseLevel;
 
   someoneElse.anounceExpertise();
+
+  // if(condition){functionalityToExecute}
+  // else if(condition){functionalityToExecute}
+  // else{functionalityToExecute}
+
+  if (age < 18) {
+    print("Bro is a prodigy!");
+  }
+  else if(age < 54){
+    print("Bro is in the optimal age!");
+  }
+  else{
+    print("Bro is still studying in this age!")
+  }
+
 }
 
 // classes

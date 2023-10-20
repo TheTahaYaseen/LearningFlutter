@@ -55,12 +55,12 @@ void main() {
   Programmer me = Programmer("thetahayaseen", "master");
   String myExpertiseLevel = me.expertiseLevel;
 
-  me.tellExpertise();
+  me.anounceExpertise();
 
   Programmer someoneElse = Programmer("someguy", "beginner");
   String someguyExpertiseLevel = someoneElse.expertiseLevel;
 
-  someoneElse.tellExpertise();
+  someoneElse.anounceExpertise();
 }
 
 // classes
@@ -72,7 +72,18 @@ class Programmer {
   // constructor
   Programmer(String this.username, String this.expertiseLevel);
 
-  void tellExpertise() {
-    print("thetahayaseen is a " + expertiseLevel);
+  void anounceExpertise() {
+    print(expertiseLevel);
+  }
+}
+
+// inheritance
+
+class SuperProgrammer extends Programmer {
+  SuperProgrammer(String username, String expertiseLevel)
+      : super(username, expertiseLevel);
+
+  void anounceName() {
+    print(username);
   }
 }

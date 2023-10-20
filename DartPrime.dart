@@ -11,6 +11,10 @@ void main() {
   int age = 14;
   bool isProgrammer = true;
 
+  print(name);
+  print(age);
+  print(isProgrammer);
+
   // age = "15"; Cannot Change Types
 
   dynamic experienceOfProgrammingInYears = 3;
@@ -28,11 +32,15 @@ void main() {
 
   String greeting = greet();
 
+  print(greeting);
+
   int getAge() {
     return age;
   }
 
   int myAge = getAge();
+
+  print(myAge);
 
   // arrow function
 
@@ -40,6 +48,8 @@ void main() {
   String getProgrammingExperience() => experienceOfProgrammingInYears;
 
   String myProgrammingExperience = getProgrammingExperience();
+
+  print(myProgrammingExperience);
 
   // lists
 
@@ -55,11 +65,15 @@ void main() {
   SuperProgrammer me = SuperProgrammer("thetahayaseen", "master");
   String myExpertiseLevel = me.expertiseLevel;
 
+  print(myExpertiseLevel);
+
   me.anounceExpertise();
   me.anounceName();
 
   Programmer someoneElse = Programmer("someguy", "beginner");
   String someguyExpertiseLevel = someoneElse.expertiseLevel;
+
+  print(someguyExpertiseLevel);
 
   someoneElse.anounceExpertise();
 

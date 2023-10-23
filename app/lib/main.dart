@@ -35,7 +35,11 @@ class MainScreen extends StatelessWidget {
         centerTitle: true,
       ),
       // Body: Tells What Will Go Inside Body Of The Scaffold
-      body: const Text("hello, world!"),
+      // Containers Can Only Have One Child Specified By Child:
+      // Center Is A Container With A Child Centering Its Child
+      body: const Center(
+        child: Text("hello, world!"),
+      ),
     );
   }
 }

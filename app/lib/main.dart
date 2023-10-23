@@ -14,7 +14,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Material App Is Always Supposed To Be The Return Type Of Root Widget In Flutter
-    return MaterialApp(
+    return const MaterialApp(
       // Home Page Of Our App Is Defined
       home: MainScreen(),
     );
@@ -33,6 +33,8 @@ class MainScreen extends StatelessWidget {
         // Text() Is Used To Put Text On Screen
         title: const Text("Main"),
         centerTitle: true,
+        // Defines BG | Colors Is A Class With Default Color Values In Flutter
+        backgroundColor: Colors.amber,
       ),
       // Body: Tells What Will Go Inside Body Of The Scaffold
       // Containers Can Only Have One Child Specified By Child:
@@ -45,6 +47,7 @@ class MainScreen extends StatelessWidget {
       // Child: Specifies Child Of Any Widget
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
+        backgroundColor: Colors.amber,
         child: const Text("Click"),
       ),
     );

@@ -40,6 +40,13 @@ class MainScreen extends StatelessWidget {
       body: const Center(
         child: Text("hello, world!"),
       ),
+      // A Button That Floats In The Scaffold
+      // OnPressed: Takes A Function To Execute When User Presses The Button
+      // Child: Specifies Child Of Any Widget
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Text("Click"),
+      ),
     );
   }
 }

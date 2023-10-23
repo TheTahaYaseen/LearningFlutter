@@ -26,9 +26,14 @@ class MainScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-        // Allows To Implement Basic Layout Covering Whole Screen
-
-        );
+    return Scaffold(
+      // Allows To Implement Basic Layout Covering Whole Screen
+      // The Bar At The Top Of The App
+      appBar: AppBar(
+        // Text() Is Used To Put Text On Screen
+        title: const Text("Main"),
+        centerTitle: true,
+      ),
+    );
   }
 }

@@ -34,6 +34,8 @@ class MainScreen extends StatelessWidget {
         title: const Text("Main"),
         centerTitle: true,
       ),
+      // Body: Tells What Will Go Inside Body Of The Scaffold
+      body: const Text("hello, world!"),
     );
   }
 }

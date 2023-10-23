@@ -44,10 +44,12 @@ class MainScreen extends StatelessWidget {
           "hello, world!",
           // Style Is An Attribute Particular For A Widget Allowing Us To Style It
           style: TextStyle(
-              fontSize: 40.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 1.5,
-              color: Colors.blueGrey),
+            fontSize: 40.0,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 1.5,
+            color: Colors.blueGrey,
+            fontFamily: "PlaypenSans",
+          ),
         ),
       ),
       // A Button That Floats In The Scaffold

@@ -20,3 +20,15 @@ class MainApp extends StatelessWidget {
     );
   }
 }
+
+class MainScreen extends StatelessWidget {
+  const MainScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold(
+        // Allows To Implement Basic Layout Covering Whole Screen
+
+        );
+  }
+}
